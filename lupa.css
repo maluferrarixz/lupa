@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&family=Rowdies:wght@300;400&display=swap');
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+
+
+
+}
+header {
+    background-color: #2e7375;
+    height: 95px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+.head {
+    width: 140%;
+    height: 110%;
+}
+#logo {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 2px;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 5px;
+}
+li {
+    float: left;
+    padding: 35 15 20 15;
+}
+li:hover {
+    background-color: #f3a7ad;
+    margin-top: 0.4%;
+    font-size: 110%;
+    border-radius: 8px;
+}
+
+
+
+#imagem_fundo {
+    background: url("planta.jpg");
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color: rgb(7, 77, 50);
+    padding-top: 22%;
+    font-size: 70px;
+    line-height: 0.6;
+    font-family: Arial;   
+}
+#subtitulo {
+    color: rgb(7, 77, 50);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid rgb(78, 182, 142);
+    text-shadow: 1px 1px  rgb(190, 255, 239);
+}
+
+
+
+
+section {
+   padding: 20px;
+    float: left;
+}
+
+
+
+
+#cidade { 
+    width: 97%;
+    text-align: center;
+    color: black;
+    float: left;
+}
+#configura {
+    width: 55%;
+    text-align: left;
+    color: black;
+    float: right;
+    margin-left: 0%;
+}
+#paragra {
+    text-indent: 50px;
+    line-height: 30px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-right: 6%;
+    margin-left: 6%;
+}
+
+
+
+#praca { 
+    width: 96.7%;
+    color: black;
+   
+}
+#items-wrapper {
+    width: 130%;
+    place-items: center;
+    float: center;
+    margin-right: 20%;
+}
+#items {
+    display: flex;
+    overflow-x: auto;
+}
+.item {
+    flex: none;
+    width: 100%;
+    height: 100%;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.margens {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#secao {
+    width: 20%;
+    margin-right: 10%;
+    float: right;
+}
+#secaodi {
+    width: 20%;
+    margin-left: 0.3%;
+    float: left;
+}
+#figuras {
+    width: 50%;
+    text-align: left;
+    color: black;
+    float: left;
+    margin-left: 0%;
+}
+
+
+
+#predio { 
+    width: 97%;
+    text-align: center;
+    color: black;
+    float: left;
+}
+
+
+
+#qrs { 
+    width: 96.7%;
+    color: black;
+}
+#cor1 {
+    color: #d25661;
+}
+#cor2 {
+    color: #30596f;
+}
+#cor3 {
+    color: #4e8391;
+}
+#cor4 {
+    color: #5f9f87;
+}
+.codes1 {
+    width: 70%;
+    height: 20%;
+    align-items: center;
+}
+.codes2 {
+    width: 70%;
+    height: 20%;
+    align-items: center;
+}
+.codes3 {
+    width: 70%;
+    height: 20%;
+    align-items: center;
+}
+.codes4 {
+    width: 70%;
+    height: 20%;
+    align-items: center;
+}
+.codes1:hover {
+    background-color: #b7d9d8;
+    margin-top: 0.4%;
+    font-size: 110%;
+    border-radius: 8px;
+}
+.codes2:hover {
+    background-color: #d25661;
+    margin-top: 0.4%;
+    font-size: 110%;
+    border-radius: 8px;
+}
+.codes3:hover {
+    background-color: #5f9f85;
+    margin-top: 0.4%;
+    font-size: 110%;
+    border-radius: 8px;
+}
+.codes4:hover {
+    background-color: #305871;
+    margin-top: 0.4%;
+    font-size: 110%;
+    border-radius: 8px;
+}
+#acao {
+    height:100%;
+    width: 100%;
+    -text-decoration: initial;
+}
+
+
+
+.cores {
+   background-color: #679473; 
+   color: #f7f7f7;
+   width: 60%;
+   text-align: center;
+   float: left;
+   border-radius: 8px;
+   margin-left: 20%;
+   margin-right: 20%;
+}
+
+
+
+.divisao {
+    background-color: #f7f7f7; 
+    width: 97%;
+    text-align: center;
+    float: left;
+    border-top: 3px solid #d25661;
+ }
+
+
+
+#internet { 
+    width: 97%;
+    text-align: center;
+    color: black;
+    float: left;
+}
+.wifi {
+    width: 6%;
+    height: 8%;
+    margin-left: 92%;
+}
+.wifi:hover {
+    width: 8%;
+    height: 10%;
+}
+
+
+
+#fibra { 
+    width: 96.7%;
+    color: black;
+}
+.optica {
+    width: 7%;
+    height: 9%;
+    margin-right: 92%;
+}
+.optica:hover {
+    width: 9%;
+    height: 11%;
+}
+.item2 {
+    flex: none;
+    width: 80%;
+    height: 80%;
+}
+
+
+
+#lan { 
+    width: 97%;
+    text-align: center;
+    color: black;
+    float: left;
+}
+
+
+
+.destaque {
+    background-color: #f7f7f7;
+}
+.marcacao {
+    background-color: #e5f8ea;
+    float: left;
+    margin-right: 0.3%;
+    margin-left: 0.3%;
+    line-height: 30px;
+}
+.verde {
+    background-color: #e5f8f4;
+    margin-left: 0.3%;
+    margin-right: 0.3%;
+}
+
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.colune {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.um {
+    width: 100%;
+    margin-right: 5%;
+}
+.dois {
+    width: 40%;
+}
+.cinco {
+    width: 15%;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+.central {
+    text-align: center;
+    margin-top: -7%
+}
+.topo {
+    margin-top: 0%;
+}
+
+footer {
+    background-color: #f3a7ad;
+    float: left;
+    width: 100%;
+    height: 70%;
+    color: #c44c56;
+    margin-bottom: 0%;
+}
+.imagemnos {
+    width: 70%;
+    height: 50%;
+    align-items: center;
+    border: #c44c56;
+    border-style: dotted;
+    border-radius: 8px;
+}
+.coruja {
+    width: 80%;
+    height: 75%;
+    align-items: center;
+
+}
+.claro {
+    background-color: #cce6d9;
+}
+
+@media all and (max-width: 800px) {
+    body {
+        padding: 0;
+    }
+
+
+    #menu {
+        visibility: hidden;
+    } 
+    header {
+        width: 100%;
+    }
+    #imagem_fundo {
+        background: url("planta.jpg");
+        height: 100%;
+        width: 111%;
+        text-align: center;
+        background-size: cover;
+    }
+    #titulo {
+        color: rgb(7, 77, 50);
+        padding-top: 40%;
+        font-size: 40px;
+        line-height: 0.6;
+        font-family: Arial;
+    }
+    .coluna, .dois, .um, .tres, .quatro, #itemswrapper, #direita, #esquerda {
+         display: block;   
+         width: 80%;
+         padding: 0;
+         margin: 10px auto;
+         float: none;
+    }
+    .colune {
+        float: left;
+        padding: 0;
+        position: static;
+        margin: 10px auto;
+        width: 20%;
+        align-items: left;
+    }
+    .cinco {
+        width: 10%;
+        -text-align: left;
+    }
+    .imagemnos {
+        width: 17%;
+        height: 12%;
+        align-items: center;
+        border: darkgreen;
+        border-style: dotted;
+    }
+    footer {
+        height: 160%;
+        width: 111%;
+    }
+    
+
+    #logodiv {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 0px;
+    }
+    #logo {
+        margin-left: 0px;
+        transform: translateX(-50%);
+    }
+    #itemswrapper {
+        float: center;
+        place-items: center;
+        display: block;
+        width: 5%;
+        height: 5%;
+        margin-left: -10%;
+        
+    }
+    .item {
+        width: 100%;
+        height: 100%;
+    }
+    #itemswrapper .margens {
+        padding: 0;
+        text-align: center;
+        width: 10%;
+        height: 10%;
+    }
+    #secaodi {
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+        width: 50%;
+    }
+    #secao {
+        float: left;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+        width: 50%;
+    }
+  
+
+    #cidade, #praca, #figuras, #predio, #configura, #internet, #fibra, #lan, .divisao, #qrs {
+        width: 100%;
+        text-align: justify;
+    }
+    
+
+
+    #esquerda {
+        margin-top: -7%;
+    }
+    #direita {
+        margin-top: 10%;
+    }
+    .central {
+        margin-top: 0.5%;
+    }
+    #celular {
+        margin-bottom: 5%;
+    }
+    .alinhamento {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+
+.cinco {
+    width: 100%;
+}
+
+.wifi, .optica {
+    width: 10%;
+    height: 5%;
+}
+}
